@@ -32,5 +32,16 @@ void FillArray(int[,] massive)
         }
     }
 }
+
+double AvrgElements(int [,] intArray)
+{
+    double avrg = 0;
+    int length = 0;
+    if intArray.GetLegth(0) > intArray.GetLength(1)
+    for (int i = 0; i < intArray.GetLength; i++)
+    {
+        
+    }
+}
 FillArray(intArray);
 PrintArray(intArray);
