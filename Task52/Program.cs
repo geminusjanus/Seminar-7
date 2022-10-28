@@ -8,7 +8,6 @@
 
 int stringArray = 3;
 int column = 4;
-int avrgSum = 0;
 int[,] intArray = new int[stringArray, column];
 Random rnd = new Random();
 void PrintArray(int[,] massive)
@@ -33,6 +32,5 @@ void FillArray(int[,] massive)
         }
     }
 }
-avrgSum = (intArray[0] + intArray[4] = intArray[9])/3;
 FillArray(intArray);
 PrintArray(intArray);
