@@ -15,7 +15,9 @@ void PrintArray(double[,] massive)
     for (int i = 0; i < stringArray; i++)
     {
         for (int j = 0; j < column; j++)
-        { Console.Write($"{massive[i, j]} "); }
+        {
+            Console.Write($"{massive[i, j]} ");
+        }
         Console.WriteLine();
     }
 }
@@ -25,7 +27,9 @@ void FillArray(double[,] massive)
     for (int i = 0; i < stringArray; i++)
     {
         for (int j = 0; j < column; j++)
-        { massive[i, j] = Convert.ToDouble(rnd.Next(-100, 100) / 10.0); }
+        {
+            massive[i, j] = Convert.ToDouble(rnd.Next(-100, 100) / 10.0);
+        }
     }
 }
 FillArray(doubleArray);
