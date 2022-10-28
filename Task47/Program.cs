@@ -29,5 +29,4 @@ void FillArray(double[,] massive)
     }
 }
 FillArray(doubleArray);
-Console.WriteLine();
 PrintArray(doubleArray);
